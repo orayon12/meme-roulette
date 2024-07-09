@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<head>
+<title> העבודה של קורן </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="scratch img.ico">
+<link rel="stylesheet" href="css.css">
+
+	</head>
+	<body>
+	<script src="script.js";></script>
+	<h2 id="tor"></h2>
+	<p id="poi" style="text-align:right"></p>
+	<script> 
+		document.getElementById("tor").innerHTML="Question num "+(Number(sessionStorage.getItem('rounds'))+1);
+		//document.getElementById("poi").innerHTML="מספר נקודות נוכחי "+Number(sessionStorage.getItem('points'));
+		document.addEventListener('keydown', (e) => {
+		e = e || window.event;
+		onarrow(e);})
+	</script>	
+	<img class="center" src="https://preview.redd.it/make-gimli-great-again-v0-744tmhu51amc1.jpeg?width=640&crop=smart&auto=webp&s=41787ec8e64f0a2fb0a1f0e5f792f969579ec6db" ></img>
+	<div class="centbutton">
+	<a href="javascript:void(0)" class="carni" id="carni" onclick="no();">dank</a>
+	<a href="javascript:void(0)" class="omni" id="omni" onclick="yes();">normi</a>
+	<a href="javascript:void(0)" class="diary" id="diary" onclick="no();">316+</a>
+	</div>
+	<body>
+</html>
